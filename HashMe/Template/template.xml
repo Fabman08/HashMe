@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    
+    <!-- Template Configuration
+    
+        <NAME> Template Name </NAME>
+        
+        <SALT> Salt String </SALT>
+        
+        <SALT_POSITION> Values available:            
+            head
+            tail
+        </SALT_POSITION>
+        
+        <SALT_ADD> Values available:            
+            True 
+            False 
+        </SALT_ADD>
+        
+        <ALGORITHM> Values available:
+            160 => SHA1
+            256 => SHA256
+            384 => SHA384
+            512 => SHA512
+            128 => MD5                    
+        </ALGORITHM>
+        
+        <ENCRYPTION_FORMAT> Values available:            
+            0 => base64
+            1 => hex
+            2 => plain
+        </ENCRYPTION_FORMAT>
+                
+        <ENCODING_TYPE> Values available:
+            0 => ascii
+            1 => bigEndianUnicode
+            2 => unicode
+            3 => utf7
+            4 => utf8
+            5 => utf32        
+        </ENCODING_TYPE>     
+        
+        <EDITABLE> Values available:
+            True 
+            False 
+        </EDITABLE>
+    
+    -->
+    
+    
+    <TEMPLATE index="0">
+        <NAME>Test</NAME>
+        <SALT></SALT>
+        <SALT_POSITION>Tail</SALT_POSITION>
+        <SALT_ADD>true</SALT_ADD>
+        <ALGORITHM>256</ALGORITHM>
+        <ENCRYPTION_FORMAT>0</ENCRYPTION_FORMAT>
+        <ENCODING_TYPE>4</ENCODING_TYPE>
+        <EDITABLE>false</EDITABLE>
+    </TEMPLATE>           
+    
+</root>
